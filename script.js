@@ -34,7 +34,7 @@ const llenarSelectConDispositivosDisponibles = () => {
                 }
             });
 
-            // Vemos si encontramos algún dispositivo, y en caso de que si, entonces llamamos a la función
+           
             if (dispositivosDeVideo.length > 0) {
                 // Llenar el select
                 dispositivosDeVideo.forEach(dispositivo => {
